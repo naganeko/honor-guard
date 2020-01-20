@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta id="vp0" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!--    <link rel="icon" href="https://clojurescript.org/images/cljs-logo-icon-32.png">-->
+  <!--    <script src="https://cdn.jsdelivr.net/npm/pixi.js@4.8.9/dist/pixi.min.js" integrity="sha256-tdpqMYOzUDVQJiGcoYHoRcdqk4hid9s2sSY6/elxF7A=" crossorigin="anonymous"></script>-->
+  <!--    <script src="https://cdn.jsdelivr.net/npm/pixi-filters@3.0.3/dist/pixi-filters.js" integrity="sha256-glKKYYqZKNetXzDxJX+1rWdQw6ou/JBBXRWj2I1nNew=" crossorigin="anonymous"></script>-->
+
+  <script src="js/pixi.js"></script>
+  <script src="js/pixi-spine-sjzs.js"></script><!-- 1.0.10 -->
+  <script src="js/pixi-filters-v2.7.1.js"></script>
+
+  <script src="js/skb.js"></script>
+  <script src="js/TDoll.js"></script>
+  <script src="js/view-resizer.js"></script>
+
+  <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    var desktop_scale = 1.0;
+    var canvas_w = 1280;
+    var canvas_h = 720;
+
+    $(function () {
+      perform_fullscreen($("#content"), canvas_w, canvas_h);
+    });
+  </script>
+
+</head>
+
+<body>
+
+<div id="content" style="">
+</div>
+<script src="js/compiled/honor_guard.js" type="text/javascript"></script>
+</body>
+</html>

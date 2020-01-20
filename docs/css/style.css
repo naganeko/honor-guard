@@ -1,0 +1,31 @@
+/* some style */
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*position: relative;*/
+    text-align: center;
+    /*background: beige;*/
+    margin:0px;
+    padding:0px;
+    opacity: 0;
+}
+
+
+#content {
+    /*background: #90bb99;*/
+    background: white;
+    /*border: 1px solid red;*/
+    /*padding:3px;*/
+    /*height: 100%;*/
+    /*width:100%;*/
+    position: absolute;
+}
+
+#base * {
+    margin: 0px;
+    padding: 0px;
+}
+
+canvas {
+    /*background: url("../img/checkered_board.png");*/
+}
